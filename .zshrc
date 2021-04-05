@@ -19,6 +19,8 @@ source "$ZDOTDIR/plugins/completion.zsh"
 
 # Only using oh-my-zsh for themes
 # https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# Install oh-my-zsh using the following command
+# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 export OHMYZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="arrow"
 source $OHMYZSH/oh-my-zsh.sh
